@@ -1,0 +1,2909 @@
+{
+    "url": "https://cv.yusufasik.com/",
+    "extensionVersion": "4.97.4",
+    "axeVersion": "4.10.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2025-01-21T15:02:16.758Z",
+    "testingEndDate": "2025-01-21T15:02:16.758Z",
+    "bestPracticesEnabled": true,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 24,
+        "moderate": 69,
+        "minor": 0,
+        "bestPractices": 69,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "color-contrast",
+            "count": 23,
+            "mode": "automated"
+        },
+        {
+            "name": "scrollable-region-focusable",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "heading-order",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "landmark-one-main",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "region",
+            "count": 67,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "axe-devtools-html",
+        "productVersion": "4.97.4",
+        "productComponentName": "extension-chrome"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.10.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2025-01-21T15:02:16.758Z",
+        "endDate": "2025-01-21T15:02:16.758Z",
+        "bestPracticesEnabled": true,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(3) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2024</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2024 — Now</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2024 — Now</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025 — 2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2022 — Now</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2019 — 2019</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2017 — 2017</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(4) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2015 — 2015</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(4) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(5) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(6) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2025</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(7) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2024</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(8) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2024</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(7) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2017 — 2019</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(7) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2014 — 2017</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>LinkedIn</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>GitHub</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>Twitter</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(4) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>Website</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(5) > .Profile_year__KzJ4a > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.48 (foreground color: #888888, background color: #222222, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>Email</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "scrollable-region-focusable",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(3) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc > div:nth-child(2) > .Attachments_attachments__9iWjP > .Attachments_scrollableArea__BdwpE"
+            ],
+            "summary": "Fix any of the following:\\n  Element should have focusable content\\n  Element should be focusable",
+            "source": "<div class=\"Attachments_scrollableArea__BdwpE\">",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag211",
+                "wcag213",
+                "TTv5",
+                "TT4.a",
+                "EN-301-549",
+                "EN-9.2.1.1",
+                "EN-9.2.1.3"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "heading-order",
+            "description": "Ensure the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_about__YfjU6 > h3"
+            ],
+            "summary": "Fix any of the following:\\n  Heading order invalid",
+            "source": "<h3>About</h3>",
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "html"
+            ],
+            "summary": "Fix all of the following:\\n  Document does not have a main landmark",
+            "source": "<html lang=\"en\">",
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_profileHeader__G7z7R"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_profileHeader__G7z7R\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_about__YfjU6"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<section class=\"Profile_profileSection___hycX Profile_about__YfjU6\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(3) > h3"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<h3>Awards</h3>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(3) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2024</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(3) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://learn.microsoft.com/en-us/users/velespit/achievements/fvjn3p6x\" target=\"_blank\">AI Security Testing from Microsoft</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(3) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > h3"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<h3>Volunteering</h3>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2024 — Now</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://testautomationu.applitools.com/me.html#yusuf-asik\" target=\"_blank\">Practitioner at Test Automation University</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_location__j4kBh"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_location__j4kBh\">Remote</div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2024 — Now</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://ieee-collabratec.ieee.org/rest/api/membership/certificate/MEMIEEE500\" target=\"_blank\">TEMS Member at IEEE</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_location__j4kBh"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_location__j4kBh\">Remote</div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(4) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_experience__8pQJc\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > h3"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<h3>Work Experience</h3>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2022 — Now</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://www.teleperformance.com/en-us/\" target=\"_blank\">Operations Customer Expert at Teleperformance</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_location__j4kBh"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_location__j4kBh\">Remote</div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2019 — 2019</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://istanbul.adalet.gov.tr/istanbul-adalet-sarayi\" target=\"_blank\">Intern at Istanbul Courthouse</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_location__j4kBh"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_location__j4kBh\">IST, Turkey</div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2017 — 2017</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"www.huqqa.com\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://www.huqqa.com\" target=\"_blank\">Intern at Atasay, HUQQA</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > div:nth-child(2) > .Profile_location__j4kBh"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_location__j4kBh\">IST, Turkey</div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(5) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(4)"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_experience__8pQJc\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > h3"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<h3>Certifications</h3>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2025</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://academy.katalon.com/learning-path/practitioner-certification-fast-track/\" target=\"_blank\">Practitioner Level from Katalon</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2025</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://testautomationu.applitools.com/learningpaths.html?id=playwright-path\" target=\"_blank\">Advanced Playwright from Test Automation University</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(2) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2025</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"cydeo.com/\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://cydeo.com/\" target=\"_blank\">Java SDET from CYDEO</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(3) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\"><p>7 Months Full hands-on experience on Java Jr-Mid Level to AI-Enhanced Testing with approximately 1000 hours of experience with dozens of instructors who are experts in their fields, most of whom still continue to work in global companies.</p></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(4) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2025</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(4) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://www.udemy.com/course/database-testing-tutorial/\" target=\"_blank\">Learn SQL + Security(pen)Testing from Scratch from Udemy</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(6) > .Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(4) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\"><p>Step by step Tutorial to learn SQL and Web Security testing with real time examples</p></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(5) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2025</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experiences__Z2lAW > .Profile_experience__8pQJc:nth-child(5) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://www.istqb.org/certifications/certified-tester-foundation-level\" target=\"_blank\">Certified Tester v4.0 from ISTQB</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(5) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\"><p>ISTQB® is the leading global certification scheme in the field of software testing. The “Core” stream modules are valid for any technology/ methodology/ application domain and build on the Foundation Level.</p></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(6) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2025</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(6) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://www.linkedin.com/learning/certificates/0c0912f410adda4cd788e9e73bff2cec255d405fb6125a65144dbdfab27ccaf2\" target=\"_blank\">Software Architecture: Domain-Driven Design from LinkedIN</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(6) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(7) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2024</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"www.godaddy.com\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://www.godaddy.com\" target=\"_blank\">Data Protection and Security Awareness from GoDaddy</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(7) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\"><p>GoDaddy is leader in the Domain-Hosting and known for collaboration with Sucuri on Website Security and M365 Mail Security Products, New security certification that i added to my envanter with 100% score pass.</p></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(8) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>2024</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(8) > div:nth-child(2) > .Profile_title__DhufJ > a[href$=\"godaddy.com\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://godaddy.com\" target=\"_blank\">Global Anti-Harassment and Discrimination from GoDaddy</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(8) > div:nth-child(2) > .Profile_description__OMT9q"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_description__OMT9q\"><p>GoDaddy is leader in the Domain-Hosting and known for collaboration with Sucuri on Website Security and M365 Mail Security Products, New security certification that i added to my envanter with 100% score pass.</p></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(7)"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<section class=\"Profile_profileSection___hycX\">",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "section:nth-child(8) > h3"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<h3>Contact</h3>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(1) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>LinkedIn</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(1) > div:nth-child(2) > .Profile_title__DhufJ > a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://linkedin.com/in/velespit\" target=\"_blank\">velespit</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(2) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>GitHub</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"velespitt\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://github.com/velespitt\" target=\"_blank\">velespitt</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(3) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>Twitter</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"testcanor\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://twitter.com/testcanor\" target=\"_blank\">testcanor</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(4) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>Website</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_experience__8pQJc:nth-child(4) > div:nth-child(2) > .Profile_title__DhufJ > a[href$=\"yusufasik.com\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"https://yusufasik.com\" target=\"_blank\">yusufasik.com</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".Profile_contacts__TQmml > .Profile_experience__8pQJc:nth-child(5) > .Profile_year__KzJ4a"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<div class=\"Profile_year__KzJ4a\"><span>Email</span></div>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href=\"mailto:contact@yusufasik.com\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Some page content is not contained by landmarks",
+            "source": "<a href=\"mailto:contact@yusufasik.com\" target=\"_blank\">contact@yusufasik.com</a>",
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T15:02:16.758Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cv.yusufasik.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık",
+            "screenshotURL": null
+        }
+    ]
+}

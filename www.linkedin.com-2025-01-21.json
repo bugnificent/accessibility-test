@@ -1,0 +1,115 @@
+{
+    "url": "https://www.linkedin.com/in/velespit/?locale=tr_TR",
+    "extensionVersion": "4.97.4",
+    "axeVersion": "4.10.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2025-01-21T19:14:08.623Z",
+    "testingEndDate": "2025-01-21T19:14:08.623Z",
+    "bestPracticesEnabled": true,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 1,
+        "moderate": 1,
+        "minor": 0,
+        "bestPractices": 1,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-hidden-focus",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "landmark-unique",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "axe-devtools-html",
+        "productVersion": "4.97.4",
+        "productComponentName": "extension-chrome"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.10.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2025-01-21T19:14:08.623Z",
+        "endDate": "2025-01-21T19:14:08.623Z",
+        "bestPracticesEnabled": true,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "main > .pv-profile-card.mt2[data-view-name=\"profile-card\"]:nth-child(6) > .iRQlucHUKclOVnnLzGCMMOriIYNHADAA > .pvs-header__top-container--no-stack > .pvs-header__left-container--stack > .QvYTNNlszJhnEXEKkmnBOtkhIHmILXpwOMOo > .jAnIheeFaGXOlMrxABfUZDUcGvnKmCPiY.pvs-header__optional-link > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<span aria-hidden=\"true\"><a class=\"UCscCatRDSWOVGPsBHtBFxutMeBcJczyetPkw \" target=\"_self\" href=\"https://www.linkedin.com/feed/followers/\" data-test-app-aware-link=\"\"><strong><!---->1 takipçi<!----></strong></a></span>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T19:14:08.623Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://www.linkedin.com/in/velespit/?locale=tr_TR",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık | LinkedIn",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "landmark-unique",
+            "description": "Ensure landmarks are unique",
+            "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".scaffold-layout__aside"
+            ],
+            "summary": "Fix any of the following:\\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",
+            "source": "<aside class=\"scaffold-layout__aside\\n    \\n    \">",
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-21T19:14:08.623Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://www.linkedin.com/in/velespit/?locale=tr_TR",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Yusuf Aşık | LinkedIn",
+            "screenshotURL": null
+        }
+    ]
+}

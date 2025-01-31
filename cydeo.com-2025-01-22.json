@@ -1,0 +1,110 @@
+{
+    "url": "https://cydeo.com/",
+    "extensionVersion": "4.97.4",
+    "axeVersion": "4.10.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2025-01-22T14:25:43.444Z",
+    "testingEndDate": "2025-01-22T14:25:43.444Z",
+    "bestPracticesEnabled": true,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 0,
+        "moderate": 2,
+        "minor": 0,
+        "bestPractices": 2,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "landmark-unique",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "page-has-heading-one",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "axe-devtools-html",
+        "productVersion": "4.97.4",
+        "productComponentName": "extension-chrome"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.10.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2025-01-22T14:25:43.444Z",
+        "endDate": "2025-01-22T14:25:43.444Z",
+        "bestPracticesEnabled": true,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "landmark-unique",
+            "description": "Ensure landmarks are unique",
+            "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".w-nav"
+            ],
+            "summary": "Fix any of the following:\\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",
+            "source": "<nav class=\"w-nav ush_menu_1 height_full dropdown_height m_align_none m_layout_dropdown type_desktop\" itemscope=\"\" itemtype=\"https://schema.org/SiteNavigationElement\">",
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-22T14:25:43.444Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cydeo.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Cydeo",
+            "screenshotURL": null
+        },
+        {
+            "issueId": null,
+            "ruleId": "page-has-heading-one",
+            "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+            "help": "Page should contain a level-one heading",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=AxeChrome",
+            "impact": "moderate",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "html"
+            ],
+            "summary": "Fix all of the following:\\n  Page must have a level-one heading",
+            "source": "<html lang=\"en-US\" class=\"no-touch\">",
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2025-01-22T14:25:43.444Z",
+            "isExperimental": false,
+            "foundBy": "yusuf.asik123@gmail.com",
+            "integrationUrl": null,
+            "testUrl": "https://cydeo.com/",
+            "axeVersion": "4.10.2",
+            "testPageTitle": "Cydeo",
+            "screenshotURL": null
+        }
+    ]
+}
