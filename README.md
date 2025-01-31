@@ -59,6 +59,9 @@ If you would like to contribute to this repository:
 2. Make your changes or add new accessibility testing results.
 3. Submit a pull request for review.
 
+## 📜 License
+This project is licensed under the [MIT License](LICENSE)
+
 ---
 
 For questions or suggestions, feel free to create an issue in this repository.
