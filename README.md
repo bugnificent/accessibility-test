@@ -4,9 +4,9 @@ This repository contains accessibility testing results generated using the [axe 
 
 ## Overview
 
--The JSON files in this repository represent the accessibility audit outputs for the tested application. These results help identify areas for improvement to ensure compliance with accessibility standards such as WCAG (Web Content Accessibility Guidelines).
+- The JSON files in this repository represent the accessibility audit outputs for the tested application. These results help identify areas for improvement to ensure compliance with accessibility standards such as WCAG (Web Content Accessibility Guidelines).
 
--The HTML file shows accessibility FastPass results using Accessibility Insights from Windows. FastPass runs for most common accessibility issues like color contrast and tab stops.
+- The HTML file shows accessibility FastPass results using Accessibility Insights from Windows. FastPass runs for most common accessibility issues like color contrast and tab stops.
 
 ## File Structure
 
