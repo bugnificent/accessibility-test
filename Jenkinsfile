@@ -2,20 +2,20 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node.JS 23.x' 
+        nodejs 'Node.JS 23.x'
     }
 
     stages {
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                sh 'npm install'
             }
         }
 
         stage('Run Lighthouse CI') {
             steps {
-                bat 'npm install -g @lhci/cli@0.14.x'
-                bat 'lhci autorun'
+                sh 'npm install -g @lhci/cli@0.14.x'
+                sh 'lhci autorun'
             }
         }
     }
