@@ -12,9 +12,11 @@ pipeline {
 
     stages {
         stage('Machine Setup') {
-            steps {
-                sh 'bash -c "set -euxo pipefail; echo \\"deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main\\" | sudo tee -a /etc/apt/sources.list.d/google.list; wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -; curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -; sudo apt-get update; sudo apt-get install -y nodejs google-chrome-stable"'
-            }
+    steps {
+        sh 'bash -c "set -euxo pipefail; echo \\"deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main\\" >> /etc/apt/sources.list.d/google.list; wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -; curl -sL https://deb.nodesource.com/setup_16.x | bash -; apt-get update; apt-get install -y nodejs google-chrome-stable"'
+    }
+}
+
         }
 
         stage('Install Dependencies and Build') {
