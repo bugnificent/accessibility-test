@@ -5,16 +5,53 @@ pipeline {
         nodejs 'Node.JS 23.x' // Ensure this matches the name in Jenkins
     }
 
+    environment {
+        CHROME_PATH = '/usr/bin/google-chrome-stable' // Adjust if needed
+        LHCI_BUILD_CONTEXT__EXTERNAL_BUILD_URL = env.BUILD_URL
+    }
+
     stages {
-        stage('Install Lighthouse CI') {
+        stage('Machine Setup') {
             steps {
-                sh 'npm install -g @lhci/cli@0.14.x'
+                sh '''
+                    #!/bin/bash
+                    set -euxo pipefail
+
+                    # Add Chrome's apt-key
+                    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee -a /etc/apt/sources.list.d/google.list
+                    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
+                    # Add Node's apt-key
+                    curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+
+                    # Install NodeJS and Google Chrome
+                    sudo apt-get update
+                    sudo apt-get install -y nodejs google-chrome-stable
+                '''
+            }
+        }
+
+        stage('Install Dependencies and Build') {
+            steps {
+                sh '''
+                    #!/bin/bash
+                    set -euxo pipefail
+
+                    npm install
+                    npm run build
+                '''
             }
         }
 
         stage('Run Lighthouse CI') {
             steps {
-                sh 'lhci autorun'
+                sh '''
+                    #!/bin/bash
+                    set -euxo pipefail
+
+                    npm install -g @lhci/cli@0.14.x
+                    lhci autorun
+                '''
             }
         }
     }
