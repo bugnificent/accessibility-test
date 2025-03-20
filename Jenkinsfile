@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node.JS 23.x'
+        nodejs 'Node.JS 16.x'
     }
 
     environment {
@@ -17,7 +17,16 @@ pipeline {
                     #!/bin/bash  # Explicitly use bash
                     set -euxo pipefail
 
-                    # ... (rest of your script)
+                    # Add Chrome's apt-key
+                    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee -a /etc/apt/sources.list.d/google.list
+                    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
+                    # Add Node's apt-key
+                    curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+
+                    # Install NodeJS and Google Chrome
+                    sudo apt-get update
+                    sudo apt-get install -y nodejs google-chrome-stable
                 '''
             }
         }
@@ -28,7 +37,11 @@ pipeline {
                     #!/bin/bash # Explicitly use bash
                     set -euxo pipefail
 
-                    # ... (rest of your script)
+                    npm install
+                    npm run build
+
+                    export CHROME_PATH=$(which google-chrome-stable)
+                    export LHCI_BUILD_CONTEXT__EXTERNAL_BUILD_URL="$BUILD_URL"
                 '''
             }
         }
@@ -39,9 +52,11 @@ pipeline {
                     #!/bin/bash # Explicitly use bash
                     set -euxo pipefail
 
-                    # ... (rest of your script)
+                    npm install -g @lhci/cli@0.14.x
+                    lhci autorun
                 '''
             }
         }
     }
 }
+
