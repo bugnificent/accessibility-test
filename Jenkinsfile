@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node.JS 23.x' // Ensure this matches the name in Jenkins
+        nodejs 'Node.JS 23.x'
     }
 
     environment {
-        CHROME_PATH = '/usr/bin/google-chrome-stable' // Adjust if needed
-        LHCI_BUILD_CONTEXT__EXTERNAL_BUILD_URL = env.BUILD_URL
+        CHROME_PATH = '/usr/bin/google-chrome-stable'
+        LHCI_BUILD_CONTEXT__EXTERNAL_BUILD_URL = "${env.BUILD_URL}" // Corrected line
     }
 
     stages {
