@@ -1,8 +1,8 @@
 pipeline {
-    agent any
-
-    tools {
-        nodejs 'Node.JS 18.x' // Use the Node.js tool configured in Jenkins
+    agent {
+        docker {
+            image 'node:18' // Use the official Node.js image
+        }
     }
 
     stages {
