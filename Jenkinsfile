@@ -2,31 +2,20 @@ pipeline {
     agent any // Use any available agent
 
     stages {
-        stage('Install Dependencies') {
+        stage('Run Lighthouse CI') {
             steps {
-                sh 'npm install pa11y'
-            }
-        }
-
-        stage('Run Pa11y') {
-            steps {
-                sh 'npx pa11y https://yusufasik.com --runner axe --reporter html > access-report-axe.html'
-            }
-        }
-
-        stage('Archive Report') {
-            steps {
-                archiveArtifacts artifacts: 'access-report-axe.html', fingerprint: true
+                // Run Lighthouse CI autorun
+                sh 'lhci autorun'
             }
         }
     }
 
     post {
         failure {
-            echo 'Pa11y accessibility testing failed.'
+            echo 'Lighthouse CI testing failed.'
         }
         success {
-            echo 'Pa11y accessibility testing completed successfully.'
+            echo 'Lighthouse CI testing completed successfully.'
         }
     }
 }
