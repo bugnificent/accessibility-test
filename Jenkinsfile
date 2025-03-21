@@ -1,6 +1,7 @@
 pipeline {
-    agent any // Use any available agent
+    agent any
 
+    stages {
         stage('Run Lighthouse CI') {
             steps {
                 withCredentials([string(credentialsId: '4TP41Xnq7eKhhZK8:63041757:EYqAIjq6', variable: 'LHCI_GITHUB_APP_TOKEN')]) {
@@ -8,7 +9,7 @@ pipeline {
                 }
             }
         }
-    
+    }
 
     post {
         failure {
@@ -18,7 +19,6 @@ pipeline {
             echo 'Lighthouse CI testing completed successfully.'
         }
     }
-
 }
 
 
