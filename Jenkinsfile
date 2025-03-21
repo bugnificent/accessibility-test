@@ -6,11 +6,10 @@ pipeline {
             sh 'npm install -g @lhci/cli@0.14.x'
         }
     }
-        stage('Run Lighthouse CI') {
-            steps {
-                // Run Lighthouse CI autorun
-                sh 'lhci autorun'
-            }
+    stage('Run Lighthouse CI') {
+        steps {
+            // Run Lighthouse CI autorun
+            sh 'lhci autorun'
         }
     }
 
@@ -23,6 +22,7 @@ pipeline {
         }
     }
 }
+
 
 
 
