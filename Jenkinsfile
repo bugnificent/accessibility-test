@@ -1,10 +1,13 @@
 pipeline {
     agent any
 
+    environment {
+        LHCI_GITHUB_APP_TOKEN = '4TP41Xnq7eKhhZK8:63041757:EYqAIjq6'
+    }
+
     stages {
         stage('Run Lighthouse CI') {
             steps {
-                withCredentials([string(credentialsId: '4TP41Xnq7eKhhZK8:63041757:EYqAIjq6', variable: 'LHCI_GITHUB_APP_TOKEN')]) {
                     sh 'lhci autorun'
                 }
             }
