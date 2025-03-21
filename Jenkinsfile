@@ -22,7 +22,6 @@ pipeline {
             echo 'Lighthouse CI testing completed successfully.'
         }
     }
-}
 
 
 
