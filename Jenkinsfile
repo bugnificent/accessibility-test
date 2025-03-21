@@ -8,7 +8,7 @@ pipeline {
                 }
             }
         }
-    }
+    
 
     post {
         failure {
@@ -18,8 +18,8 @@ pipeline {
             echo 'Lighthouse CI testing completed successfully.'
         }
     }
-}
 
+}
 
 
 
