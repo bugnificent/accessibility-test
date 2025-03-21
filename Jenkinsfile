@@ -3,8 +3,9 @@ pipeline {
 
         stage('Run Lighthouse CI') {
             steps {
-                // Run Lighthouse CI autorun
-                sh 'lhci autorun'
+                withCredentials([string(credentialsId: '4TP41Xnq7eKhhZK8:63041757:EYqAIjq6', variable: 'LHCI_GITHUB_APP_TOKEN')]) {
+                    sh 'lhci autorun'
+                }
             }
         }
     }
