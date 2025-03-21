@@ -1,15 +1,17 @@
 pipeline {
     agent any // Use any available agent
 
-    stage('Install CLI') {
-        steps {
-            sh 'npm install -g @lhci/cli@0.14.x'
+    stages { // Add the stages block here
+        stage('Install CLI') {
+            steps {
+                sh 'npm install -g @lhci/cli@0.14.x'
+            }
         }
-    }
-    stage('Run Lighthouse CI') {
-        steps {
-            // Run Lighthouse CI autorun
-            sh 'lhci autorun'
+        stage('Run Lighthouse CI') {
+            steps {
+                // Run Lighthouse CI autorun
+                sh 'lhci autorun'
+            }
         }
     }
 
