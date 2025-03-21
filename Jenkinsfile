@@ -4,7 +4,7 @@ pipeline {
     stages { // Add the stages block here
         stage('Install CLI') {
             steps {
-                sh 'npm install -g @lhci/cli@0.14.x'
+                sh 'sudo npm install -g @lhci/cli@0.14.x'
             }
         }
         stage('Run Lighthouse CI') {
