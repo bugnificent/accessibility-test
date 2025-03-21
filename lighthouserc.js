@@ -1,13 +1,11 @@
 module.exports = {
-   ci: {
-     collect: {
-       staticDistDir: './',
-     },
-     upload: {
-      target: 'lhci',
-      serverBaseUrl: 'http://localhost:9001',
-      token: 'e5575684-3498-4048-802f-dadfdea743e6', // could also use LHCI_TOKEN variable instead
-     },
-   }
-}
+  ci: {
+    collect: {
+      staticDistDir: './', // Replace with the path to your built files
+    },
+    upload: {
+      target: 'temporary-public-storage', // Use public storage
+    },
+  },
+};
 
