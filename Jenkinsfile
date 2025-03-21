@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-         LHCI_GITHUB_APP_TOKEN = credentials('LHCI_GITHUB_TOKEN')
+         LHCI_GITHUB_APP_TOKEN = '4TP41Xnq7eKhhZK8:63041757:EYqAIjq6'
     }
 
     stages {
